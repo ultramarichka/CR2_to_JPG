@@ -1,0 +1,3 @@
+ffmpeg -i ./igracha_kuljok.3gp -c:a libvorbis -b:v 0 -crf 33 -threads 4 out1.webm
+
+//3gp -> webm 
